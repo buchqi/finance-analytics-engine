@@ -3,7 +3,7 @@ from datetime import date
 
 
 class Transaction:
-    def __init__(self,transaction_date: date,category:str,description:str,amount:float,transaction_type:str):
+    def __init__(self,transaction_date: date,category:str,description:str,amount:float,transaction_type:str,transaction_id:str):
         if amount <0:
             raise ValueError("Amount must be positive")
         if transaction_type not in ('income','expense'):
@@ -13,6 +13,7 @@ class Transaction:
         self.description = description
         self.amount = amount
         self.transaction_type = transaction_type
+        self.transaction_id = transaction_id
     
     def signed_amount(self):
         #'return positive value for income and negative for expenses '
