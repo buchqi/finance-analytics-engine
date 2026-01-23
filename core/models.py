@@ -15,7 +15,7 @@ class Transaction:
         self.transaction_type = transaction_type
     
     def signed_amount(self):
-        'return positive value for income and negative for expenses '
+        #'return positive value for income and negative for expenses '
         return self.amount if self.transaction_type =='income' else -self.amount
     
     def __repr__(self):
