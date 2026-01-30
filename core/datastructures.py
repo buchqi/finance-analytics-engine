@@ -57,7 +57,7 @@ class Dll_skeleton:
             return 
         current = self.head
         while current:
-            print(current.transaction)
+            print( current.transaction)
             current = current.next
     
 class TransactionDataset:

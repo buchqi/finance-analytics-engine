@@ -1,3 +1,4 @@
+
 from datetime import date
 from core.models import Transaction
 from core.datastructures import TransactionDataset
@@ -43,3 +44,6 @@ print("\nFilter by amount 25.0:", dataset.filter_by_amount(25.0))
 print("Filter by category 'Food':", dataset.filter_by_category("Food"))
 print("Filter by date range 2026-01-01 to 2026-01-02:", dataset.filter_by_date_range(date(2026,1,1), date(2026,1,2)))
 print("Filter by amount range 10 to 1000:", dataset.filter_by_amount_range(10, 1000))
+
+
+

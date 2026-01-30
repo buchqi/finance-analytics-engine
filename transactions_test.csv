@@ -1,0 +1,6 @@
+date,category,description,amount,transaction_type
+2026-01-01,Food,Lunch,15.0,expense
+2026-01-02,Salary,January salary,2000.0,income
+2026-01-03,Transport,Bus ticket,2.5,expense
+2026-01-04,Freelance,Project payment,500.0,income
+2026-01-05,Entertainment,Movie,12.0,expense
